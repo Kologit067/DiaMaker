@@ -1,0 +1,5 @@
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CommonLib\bin\Release\CommonLib.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CommonLib\bin\Release\CommonLib.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CommonLib\obj\Release\CommonLib.csprojResolveAssemblyReference.cache
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CommonLib\obj\Release\CommonLib.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CommonLib\obj\Release\CommonLib.pdb

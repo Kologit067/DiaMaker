@@ -1,0 +1,8 @@
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\GraphTest\bin\Release\GraphTest.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\GraphTest\bin\Release\GraphTest.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\GraphTest\bin\Release\CommonLib.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\GraphTest\bin\Release\GraphLib.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\GraphTest\bin\Release\CommonLib.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\GraphTest\bin\Release\GraphLib.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\GraphTest\obj\Release\GraphTest.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\GraphTest\obj\Release\GraphTest.pdb

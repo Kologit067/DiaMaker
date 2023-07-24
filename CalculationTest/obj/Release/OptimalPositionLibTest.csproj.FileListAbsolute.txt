@@ -1,0 +1,13 @@
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CalculationTest\bin\Release\CalculationTest.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CalculationTest\bin\Release\CalculationTest.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CalculationTest\bin\Release\CommonLib.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CalculationTest\bin\Release\DiaMakerModel.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CalculationTest\bin\Release\GraphLib.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CalculationTest\bin\Release\OptimalPositionLib.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CalculationTest\bin\Release\CommonLib.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CalculationTest\bin\Release\DiaMakerModel.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CalculationTest\bin\Release\GraphLib.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CalculationTest\bin\Release\OptimalPositionLib.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CalculationTest\obj\Release\OptimalPositionLibTest.csprojResolveAssemblyReference.cache
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CalculationTest\obj\Release\CalculationTest.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CalculationTest\obj\Release\CalculationTest.pdb

@@ -1,0 +1,6 @@
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CommonLibTest\bin\Release\CommonLibTest.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CommonLibTest\bin\Release\CommonLibTest.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CommonLibTest\bin\Release\CommonLib.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CommonLibTest\bin\Release\CommonLib.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CommonLibTest\obj\Release\CommonLibTest.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CommonLibTest\obj\Release\CommonLibTest.pdb

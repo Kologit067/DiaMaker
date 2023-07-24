@@ -1,0 +1,8 @@
+E:\Data\Project\DiaMaker\Common\bin\Debug\Common.dll
+E:\Data\Project\DiaMaker\Common\bin\Debug\Common.pdb
+E:\Data\Project\DiaMaker\Common\obj\Debug\Common.dll
+E:\Data\Project\DiaMaker\Common\obj\Debug\Common.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\Common\bin\Debug\Common.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\Common\bin\Debug\Common.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\Common\obj\Debug\Common.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\Common\obj\Debug\Common.pdb

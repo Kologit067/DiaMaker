@@ -1,0 +1,39 @@
+E:\Data\Project\DiaMaker\DiaMakerViewModel\bin\Debug\DiaMakerViewModel.dll
+E:\Data\Project\DiaMaker\DiaMakerViewModel\bin\Debug\DiaMakerViewModel.pdb
+E:\Data\Project\DiaMaker\DiaMakerViewModel\bin\Debug\Common.dll
+E:\Data\Project\DiaMaker\DiaMakerViewModel\bin\Debug\DataBase.dll
+E:\Data\Project\DiaMaker\DiaMakerViewModel\bin\Debug\DiaMakerModel.dll
+E:\Data\Project\DiaMaker\DiaMakerViewModel\bin\Debug\OptimalPositionLib.dll
+E:\Data\Project\DiaMaker\DiaMakerViewModel\bin\Debug\Common.pdb
+E:\Data\Project\DiaMaker\DiaMakerViewModel\bin\Debug\DataBase.pdb
+E:\Data\Project\DiaMaker\DiaMakerViewModel\bin\Debug\DiaMakerModel.pdb
+E:\Data\Project\DiaMaker\DiaMakerViewModel\bin\Debug\OptimalPositionLib.pdb
+E:\Data\Project\DiaMaker\DiaMakerViewModel\obj\Debug\DiaMakerViewModel.csprojResolveAssemblyReference.cache
+E:\Data\Project\DiaMaker\DiaMakerViewModel\obj\Debug\DiaMakerViewModel.dll
+E:\Data\Project\DiaMaker\DiaMakerViewModel\obj\Debug\DiaMakerViewModel.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerViewModel\bin\Debug\DiaMakerViewModel.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerViewModel\bin\Debug\DiaMakerViewModel.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerViewModel\bin\Debug\DiaMakerModel.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerViewModel\bin\Debug\OptimalPositionLib.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerViewModel\bin\Debug\DiaMakerModel.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerViewModel\bin\Debug\OptimalPositionLib.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerViewModel\obj\Debug\DiaMakerViewModel.csprojResolveAssemblyReference.cache
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerViewModel\obj\Debug\DiaMakerViewModel.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerViewModel\obj\Debug\DiaMakerViewModel.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerViewModel\bin\Debug\CommonLib.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerViewModel\bin\Debug\GraphLib.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerViewModel\bin\Debug\CommonLib.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerViewModel\bin\Debug\GraphLib.pdb
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerViewModel\obj\Debug\DiaMakerViewModel.csprojResolveAssemblyReference.cache
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerViewModel\obj\Debug\DiaMakerViewModel.dll
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerViewModel\obj\Debug\DiaMakerViewModel.pdb
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerViewModel\bin\Debug\DiaMakerViewModel.dll
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerViewModel\bin\Debug\DiaMakerViewModel.pdb
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerViewModel\bin\Debug\CommonLib.dll
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerViewModel\bin\Debug\DiaMakerModel.dll
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerViewModel\bin\Debug\GraphLib.dll
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerViewModel\bin\Debug\OptimalPositionLib.dll
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerViewModel\bin\Debug\CommonLib.pdb
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerViewModel\bin\Debug\DiaMakerModel.pdb
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerViewModel\bin\Debug\GraphLib.pdb
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerViewModel\bin\Debug\OptimalPositionLib.pdb

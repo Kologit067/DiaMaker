@@ -1,0 +1,11 @@
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerModel\bin\Release\DiaMakerModel.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerModel\bin\Release\DiaMakerModel.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerModel\bin\Release\CommonLib.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerModel\bin\Release\GraphLib.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerModel\bin\Release\OptimalPositionLib.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerModel\bin\Release\CommonLib.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerModel\bin\Release\GraphLib.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerModel\bin\Release\OptimalPositionLib.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerModel\obj\Release\DiaMakerModel.csprojResolveAssemblyReference.cache
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerModel\obj\Release\DiaMakerModel.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMakerModel\obj\Release\DiaMakerModel.pdb

@@ -1,0 +1,79 @@
+E:\Data\Project\DiaMaker\DiaMaker\bin\Debug\DiaMaker.exe.config
+E:\Data\Project\DiaMaker\DiaMaker\bin\Debug\DiaMaker.exe
+E:\Data\Project\DiaMaker\DiaMaker\bin\Debug\DiaMaker.pdb
+E:\Data\Project\DiaMaker\DiaMaker\bin\Debug\Common.dll
+E:\Data\Project\DiaMaker\DiaMaker\bin\Debug\DiaMakerViewModel.dll
+E:\Data\Project\DiaMaker\DiaMaker\bin\Debug\DiaMakerModel.dll
+E:\Data\Project\DiaMaker\DiaMaker\bin\Debug\DataBase.dll
+E:\Data\Project\DiaMaker\DiaMaker\bin\Debug\OptimalPositionLib.dll
+E:\Data\Project\DiaMaker\DiaMaker\bin\Debug\Common.pdb
+E:\Data\Project\DiaMaker\DiaMaker\bin\Debug\DiaMakerViewModel.pdb
+E:\Data\Project\DiaMaker\DiaMaker\bin\Debug\DiaMakerModel.pdb
+E:\Data\Project\DiaMaker\DiaMaker\bin\Debug\DataBase.pdb
+E:\Data\Project\DiaMaker\DiaMaker\bin\Debug\OptimalPositionLib.pdb
+E:\Data\Project\DiaMaker\DiaMaker\obj\Debug\DiaMaker.csprojResolveAssemblyReference.cache
+E:\Data\Project\DiaMaker\DiaMaker\obj\Debug\View\DiaMakerWin.baml
+E:\Data\Project\DiaMaker\DiaMaker\obj\Debug\View\DiaMakerWin.g.cs
+E:\Data\Project\DiaMaker\DiaMaker\obj\Debug\App.g.cs
+E:\Data\Project\DiaMaker\DiaMaker\obj\Debug\DiaMaker_MarkupCompile.cache
+E:\Data\Project\DiaMaker\DiaMaker\obj\Debug\DiaMaker.g.resources
+E:\Data\Project\DiaMaker\DiaMaker\obj\Debug\DiaMaker.Properties.Resources.resources
+E:\Data\Project\DiaMaker\DiaMaker\obj\Debug\DiaMaker.csproj.GenerateResource.Cache
+E:\Data\Project\DiaMaker\DiaMaker\obj\Debug\DiaMaker.exe
+E:\Data\Project\DiaMaker\DiaMaker\obj\Debug\DiaMaker.pdb
+E:\Data\Project\DiaMaker\DiaMaker\obj\Debug\DiaMaker_Content.g.cs
+E:\Data\Project\DiaMaker\DiaMaker\bin\Debug\View\Picture\Addnewdatasource_8453_32.bmp
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\View\Picture\Addnewdatasource_8453_32.bmp
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\DiaMaker.exe.config
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\DiaMaker.exe
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\DiaMaker.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\DiaMakerViewModel.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\DiaMakerModel.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\OptimalPositionLib.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\DiaMakerViewModel.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\DiaMakerModel.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\OptimalPositionLib.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\obj\Debug\DiaMaker.csprojResolveAssemblyReference.cache
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\obj\Debug\View\DiaMakerWin.baml
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\obj\Debug\View\DiaMakerWin.g.cs
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\obj\Debug\App.g.cs
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\obj\Debug\DiaMaker_Content.g.cs
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\obj\Debug\DiaMaker_MarkupCompile.cache
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\obj\Debug\DiaMaker.g.resources
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\obj\Debug\DiaMaker.Properties.Resources.resources
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\obj\Debug\DiaMaker.csproj.GenerateResource.Cache
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\obj\Debug\DiaMaker.exe
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\obj\Debug\DiaMaker.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\obj\Debug\DiaMaker_MarkupCompile.lref
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\CommonLib.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\GraphLib.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\CommonLib.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\GraphLib.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\DiaMaker.exe.config
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\obj\Debug\DiaMaker.exe
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\obj\Debug\DiaMaker.pdb
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\obj\Debug\DiaMaker.csprojResolveAssemblyReference.cache
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\obj\Debug\App.g.cs
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\obj\Debug\DiaMaker_Content.g.cs
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\obj\Debug\DiaMaker_MarkupCompile.cache
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\View\Picture\Addnewdatasource_8453_32.bmp
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\DiaMaker.exe
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\DiaMaker.pdb
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\CommonLib.dll
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\DiaMakerModel.dll
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\DiaMakerViewModel.dll
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\GraphLib.dll
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\OptimalPositionLib.dll
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\CommonLib.pdb
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\DiaMakerModel.pdb
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\DiaMakerViewModel.pdb
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\GraphLib.pdb
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\bin\Debug\OptimalPositionLib.pdb
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\obj\Debug\View\DiaMakerWin.g.cs
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\obj\Debug\DiaMaker_MarkupCompile.lref
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\obj\Debug\View\DiaMakerWin.baml
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\obj\Debug\DiaMaker.g.resources
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\obj\Debug\DiaMaker.Properties.Resources.resources
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\DiaMaker\obj\Debug\DiaMaker.csproj.GenerateResource.Cache

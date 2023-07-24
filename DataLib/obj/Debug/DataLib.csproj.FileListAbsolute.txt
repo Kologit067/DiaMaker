@@ -1,0 +1,10 @@
+E:\Data\Project\DiaMaker\DataLib\bin\Debug\DataLib.dll
+E:\Data\Project\DiaMaker\DataLib\bin\Debug\DataLib.pdb
+E:\Data\Project\DiaMaker\DataLib\obj\Debug\DataLib.dll
+E:\Data\Project\DiaMaker\DataLib\obj\Debug\DataLib.pdb
+E:\Data\Project\DiaMaker\DataLib\obj\Debug\DataLib.csprojResolveAssemblyReference.cache
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DataLib\bin\Debug\DataLib.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DataLib\bin\Debug\DataLib.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DataLib\obj\Debug\DataLib.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DataLib\obj\Debug\DataLib.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DataLib\obj\Debug\DataLib.csprojResolveAssemblyReference.cache

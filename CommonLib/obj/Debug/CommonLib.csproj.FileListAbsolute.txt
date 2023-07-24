@@ -1,0 +1,32 @@
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CommonLib\bin\Debug\CommonLib.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CommonLib\bin\Debug\CommonLib.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CommonLib\obj\Debug\CommonLib.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CommonLib\obj\Debug\CommonLib.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CommonLib\obj\Debug\CommonLib.csprojResolveAssemblyReference.cache
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\CommonLib\bin\Debug\CommonLib.dll
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\CommonLib\bin\Debug\CommonLib.pdb
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\CommonLib\obj\Debug\CommonLib.csprojResolveAssemblyReference.cache
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\CommonLib\obj\Debug\CommonLib.dll
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\CommonLib\obj\Debug\CommonLib.pdb
+F:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CommonLib\bin\Debug\CommonLib.dll
+F:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CommonLib\bin\Debug\CommonLib.pdb
+F:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CommonLib\obj\Debug\CommonLib.csprojResolveAssemblyReference.cache
+F:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CommonLib\obj\Debug\CommonLib.dll
+F:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\CommonLib\obj\Debug\CommonLib.pdb
+C:\Users\Kolo\Documents\Visual Studio 2013\Projects\DiaMaker\CommonLib\bin\Debug\CommonLib.dll
+C:\Users\Kolo\Documents\Visual Studio 2013\Projects\DiaMaker\CommonLib\bin\Debug\CommonLib.pdb
+C:\Users\Kolo\Documents\Visual Studio 2013\Projects\DiaMaker\CommonLib\obj\Debug\CommonLib.dll
+C:\Users\Kolo\Documents\Visual Studio 2013\Projects\DiaMaker\CommonLib\obj\Debug\CommonLib.pdb
+C:\Users\Kolo\Documents\Visual Studio 2013\Projects\DiaMaker\CommonLib\obj\Debug\CommonLib.csprojResolveAssemblyReference.cache
+C:\Users\okolomiiets\Documents\Visual Studio 2017\Projects\DiaMaker\CommonLib\bin\Debug\CommonLib.dll
+C:\Users\okolomiiets\Documents\Visual Studio 2017\Projects\DiaMaker\CommonLib\bin\Debug\CommonLib.pdb
+C:\Users\okolomiiets\Documents\Visual Studio 2017\Projects\DiaMaker\CommonLib\obj\Debug\CommonLib.csprojResolveAssemblyReference.cache
+C:\Users\okolomiiets\Documents\Visual Studio 2017\Projects\DiaMaker\CommonLib\obj\Debug\CommonLib.csproj.CoreCompileInputs.cache
+C:\Users\okolomiiets\Documents\Visual Studio 2017\Projects\DiaMaker\CommonLib\obj\Debug\CommonLib.dll
+C:\Users\okolomiiets\Documents\Visual Studio 2017\Projects\DiaMaker\CommonLib\obj\Debug\CommonLib.pdb
+C:\Users\kolo\source\repos\DiaMaker\CommonLib\bin\Debug\CommonLib.dll
+C:\Users\kolo\source\repos\DiaMaker\CommonLib\bin\Debug\CommonLib.pdb
+C:\Users\kolo\source\repos\DiaMaker\CommonLib\obj\Debug\CommonLib.csprojAssemblyReference.cache
+C:\Users\kolo\source\repos\DiaMaker\CommonLib\obj\Debug\CommonLib.csproj.CoreCompileInputs.cache
+C:\Users\kolo\source\repos\DiaMaker\CommonLib\obj\Debug\CommonLib.dll
+C:\Users\kolo\source\repos\DiaMaker\CommonLib\obj\Debug\CommonLib.pdb

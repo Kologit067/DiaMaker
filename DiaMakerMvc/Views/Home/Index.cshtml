@@ -1,0 +1,56 @@
+﻿<div ng-app="DataBaseApp">
+    <div ng-controller="GetDataBasesList">
+        <form name="diaForm">
+            <div style="float: left; margin: 10px">
+                <p>
+                    <a ng-click="SelectAll()">
+                        <img src="/Content/images/Selectallrowsfrom_tableA__294_32.bmp" alt="Select all"
+                             style="width: 30px; height: 30px;" />
+                    </a>
+                    <button type="submit" ng-click="creatDia()">Create</button>
+                </p>
+                <p>
+                    <label for="phone">Select DataBase:</label>
+                    <select name="ngdbselect" ng-model="model.selectedDataBase" ng-change="selectedDataBaseChanged()">
+                        <option ng-repeat="item in model.databases" ng-value="item.Name">{{item.Name}}</option>
+                    </select>
+                </p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Gr</th>
+                            <th>Sel</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="item in model.tables">
+                            <td>{{item.Name}}</td>
+                            <td>{{item.Group}}</td>
+                            <td><input type="checkbox" name="isSelected" ng-model="item.IsSelected" /></td>
+                        </tr>
+                    </tbody>
+                </table>            
+            </div>
+            <canvas id="diaCanvas" width="800" height="450"
+                    style="background-color:#eee; border: 1px solid #ccc;">
+                Ваш браузер не поддерживает Canvas
+            </canvas>
+        </form>
+        <p>
+            {{model.errorText}}
+        </p>
+
+
+
+</div>
+</div>
+<script>
+
+    var dataBaseApp = angular.module("DataBaseApp", []);
+
+</script>
+
+@Scripts.Render("~/app/HomeController.js")
+
+

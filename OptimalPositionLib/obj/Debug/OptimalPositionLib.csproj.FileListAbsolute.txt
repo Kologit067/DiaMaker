@@ -1,0 +1,54 @@
+E:\Data\Project\DiaMaker\OptimalPositionLib\bin\Debug\OptimalPositionLib.dll
+E:\Data\Project\DiaMaker\OptimalPositionLib\bin\Debug\OptimalPositionLib.pdb
+E:\Data\Project\DiaMaker\OptimalPositionLib\bin\Debug\Common.dll
+E:\Data\Project\DiaMaker\OptimalPositionLib\bin\Debug\DataBase.dll
+E:\Data\Project\DiaMaker\OptimalPositionLib\bin\Debug\Common.pdb
+E:\Data\Project\DiaMaker\OptimalPositionLib\bin\Debug\DataBase.pdb
+E:\Data\Project\DiaMaker\OptimalPositionLib\obj\Debug\OptimalPositionLib.csprojResolveAssemblyReference.cache
+E:\Data\Project\DiaMaker\OptimalPositionLib\obj\Debug\OptimalPositionLib.dll
+E:\Data\Project\DiaMaker\OptimalPositionLib\obj\Debug\OptimalPositionLib.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\OptimalPositionLib\bin\Debug\OptimalPositionLib.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\OptimalPositionLib\bin\Debug\OptimalPositionLib.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\OptimalPositionLib\obj\Debug\OptimalPositionLib.csprojResolveAssemblyReference.cache
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\OptimalPositionLib\obj\Debug\OptimalPositionLib.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\OptimalPositionLib\obj\Debug\OptimalPositionLib.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\OptimalPositionLib\bin\Debug\CommonLib.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\OptimalPositionLib\bin\Debug\CommonLib.pdb
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\OptimalPositionLib\bin\Debug\OptimalPositionLib.dll
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\OptimalPositionLib\bin\Debug\OptimalPositionLib.pdb
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\OptimalPositionLib\bin\Debug\CommonLib.dll
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\OptimalPositionLib\bin\Debug\CommonLib.pdb
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\OptimalPositionLib\obj\Debug\OptimalPositionLib.csprojResolveAssemblyReference.cache
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\OptimalPositionLib\obj\Debug\OptimalPositionLib.dll
+C:\Users\Kolo\Documents\Visual Studio 2012\Projects\DiaMaker\OptimalPositionLib\obj\Debug\OptimalPositionLib.pdb
+F:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\OptimalPositionLib\bin\Debug\OptimalPositionLib.dll
+F:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\OptimalPositionLib\bin\Debug\OptimalPositionLib.pdb
+F:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\OptimalPositionLib\bin\Debug\CommonLib.dll
+F:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\OptimalPositionLib\bin\Debug\CommonLib.pdb
+F:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\OptimalPositionLib\obj\Debug\OptimalPositionLib.csprojResolveAssemblyReference.cache
+F:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\OptimalPositionLib\obj\Debug\OptimalPositionLib.dll
+F:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\OptimalPositionLib\obj\Debug\OptimalPositionLib.pdb
+C:\Users\Kolo\Documents\Visual Studio 2013\Projects\DiaMaker\OptimalPositionLib\bin\Debug\OptimalPositionLib.dll
+C:\Users\Kolo\Documents\Visual Studio 2013\Projects\DiaMaker\OptimalPositionLib\bin\Debug\OptimalPositionLib.pdb
+C:\Users\Kolo\Documents\Visual Studio 2013\Projects\DiaMaker\OptimalPositionLib\bin\Debug\CommonLib.dll
+C:\Users\Kolo\Documents\Visual Studio 2013\Projects\DiaMaker\OptimalPositionLib\bin\Debug\CommonLib.pdb
+C:\Users\Kolo\Documents\Visual Studio 2013\Projects\DiaMaker\OptimalPositionLib\obj\Debug\OptimalPositionLib.csprojResolveAssemblyReference.cache
+C:\Users\Kolo\Documents\Visual Studio 2013\Projects\DiaMaker\OptimalPositionLib\obj\Debug\OptimalPositionLib.dll
+C:\Users\Kolo\Documents\Visual Studio 2013\Projects\DiaMaker\OptimalPositionLib\obj\Debug\OptimalPositionLib.pdb
+C:\Users\okolomiiets\Documents\Visual Studio 2017\Projects\DiaMaker\OptimalPositionLib\bin\Debug\OptimalPositionLib.dll
+C:\Users\okolomiiets\Documents\Visual Studio 2017\Projects\DiaMaker\OptimalPositionLib\bin\Debug\OptimalPositionLib.pdb
+C:\Users\okolomiiets\Documents\Visual Studio 2017\Projects\DiaMaker\OptimalPositionLib\bin\Debug\CommonLib.dll
+C:\Users\okolomiiets\Documents\Visual Studio 2017\Projects\DiaMaker\OptimalPositionLib\bin\Debug\CommonLib.pdb
+C:\Users\okolomiiets\Documents\Visual Studio 2017\Projects\DiaMaker\OptimalPositionLib\obj\Debug\OptimalPositionLib.csprojResolveAssemblyReference.cache
+C:\Users\okolomiiets\Documents\Visual Studio 2017\Projects\DiaMaker\OptimalPositionLib\obj\Debug\OptimalPositionLib.csproj.CoreCompileInputs.cache
+C:\Users\okolomiiets\Documents\Visual Studio 2017\Projects\DiaMaker\OptimalPositionLib\obj\Debug\OptimalPositionLib.dll
+C:\Users\okolomiiets\Documents\Visual Studio 2017\Projects\DiaMaker\OptimalPositionLib\obj\Debug\OptimalPositionLib.pdb
+C:\Users\kolo\source\repos\DiaMaker\OptimalPositionLib\bin\Debug\OptimalPositionLib.dll
+C:\Users\kolo\source\repos\DiaMaker\OptimalPositionLib\bin\Debug\OptimalPositionLib.pdb
+C:\Users\kolo\source\repos\DiaMaker\OptimalPositionLib\bin\Debug\CommonLib.dll
+C:\Users\kolo\source\repos\DiaMaker\OptimalPositionLib\bin\Debug\CommonLib.pdb
+C:\Users\kolo\source\repos\DiaMaker\OptimalPositionLib\obj\Debug\OptimalPositionLib.csprojAssemblyReference.cache
+C:\Users\kolo\source\repos\DiaMaker\OptimalPositionLib\obj\Debug\OptimalPositionLib.csproj.CoreCompileInputs.cache
+C:\Users\kolo\source\repos\DiaMaker\OptimalPositionLib\obj\Debug\OptimalPositionLib.csproj.CopyComplete
+C:\Users\kolo\source\repos\DiaMaker\OptimalPositionLib\obj\Debug\OptimalPositionLib.dll
+C:\Users\kolo\source\repos\DiaMaker\OptimalPositionLib\obj\Debug\OptimalPositionLib.pdb

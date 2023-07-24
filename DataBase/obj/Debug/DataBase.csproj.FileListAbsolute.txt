@@ -1,0 +1,14 @@
+E:\Data\Project\DiaMaker\DataBase\bin\Debug\DataBase.dll
+E:\Data\Project\DiaMaker\DataBase\bin\Debug\DataBase.pdb
+E:\Data\Project\DiaMaker\DataBase\bin\Debug\Common.dll
+E:\Data\Project\DiaMaker\DataBase\bin\Debug\Common.pdb
+E:\Data\Project\DiaMaker\DataBase\obj\Debug\DataBase.csprojResolveAssemblyReference.cache
+E:\Data\Project\DiaMaker\DataBase\obj\Debug\DataBase.dll
+E:\Data\Project\DiaMaker\DataBase\obj\Debug\DataBase.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DataBase\bin\Debug\DataBase.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DataBase\bin\Debug\DataBase.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DataBase\bin\Debug\Common.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DataBase\bin\Debug\Common.pdb
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DataBase\obj\Debug\DataBase.csprojResolveAssemblyReference.cache
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DataBase\obj\Debug\DataBase.dll
+C:\Users\Oleg.Kolomiyets\Documents\Visual Studio 2012\Projects\DiaMaker\DataBase\obj\Debug\DataBase.pdb

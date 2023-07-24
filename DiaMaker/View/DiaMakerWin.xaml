@@ -1,0 +1,436 @@
+﻿<Window x:Class="DiaMaker.View.DiaMakerWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:DiaMaker.View"
+        xmlns:d="clr-namespace:DiaMakerViewModel;assembly=DiaMakerViewModel"
+        xmlns:m="clr-namespace:DiaMakerModel;assembly=DiaMakerModel"
+        Title="Diagram Builder" Height="600" Width="1300"
+        Name="_window"
+        Loaded="Window_Loaded_1" WindowState="Maximized" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <local:VisibilityConverter x:Key="visibilityConverter"/>
+        <FrameworkElement x:Key="ProxyElement"
+                         DataContext="{Binding}"/>
+        <DataTemplate DataType="{x:Type d:RectangleInfoViewModel}">
+            <DataTemplate.Resources>
+                <Style TargetType="TextBlock">
+                    <Setter Property="FontSize" Value="15"/>
+                    <Setter Property="TextAlignment" Value="Center"/>
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                </Style>
+            </DataTemplate.Resources>
+            <Canvas Background="#DD00AA" Width="0" Left="0" HorizontalAlignment="Left" PreviewMouseDown="Rectangle_MouseDown_1">
+                <Rectangle Fill="{Binding RectangleFill}" Stroke="Black" StrokeThickness="{Binding StrokeThickness}"  
+                           Canvas.Left="{Binding Path=Left}" Canvas.Top="{Binding Path=Top}"
+                           Height="{Binding Path=Height}" Width="{Binding Path=Width}" 
+                           MouseDown="Rectangle_MouseDown_1" PreviewMouseDown="Rectangle_MouseDown_1">
+                </Rectangle>
+                <TextBlock Margin="3,2,2,7"  Text="{Binding Path=Name}" Canvas.Left="{Binding Path=Left}" Canvas.Top="{Binding Path=Top}"
+                          Height="{Binding Path=Height}" Width="{Binding Path=Width}"/>
+            </Canvas>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type d:ConnectLineInfoViewModel}">
+            <Canvas Background="#DD00AA" Width="0" Left="0" HorizontalAlignment="Left" >
+                <Polyline   Points="{Binding Path=Points}"    Stroke="Black"   StrokeThickness="2" />
+            </Canvas>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type d:ArrowInfoViewModel}">
+            <Canvas Background="#DD00AA" Width="0" Left="0" HorizontalAlignment="Left" >
+                <Polygon Points="{Binding Path=Points}"  Stroke="Black" StrokeThickness="1">
+                    <Polygon.Fill>
+                        <SolidColorBrush Color="Black"/>
+                    </Polygon.Fill>
+                </Polygon>
+            </Canvas>
+        </DataTemplate>
+        <Style TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Background" Value="#F8F8F8" />
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Background" Value="#E8E8E8" />
+        </Style>
+        <Style TargetType="Grid">
+            <Setter Property="Background" Value="#EEEEEE" />
+        </Style>
+        <Style TargetType="CheckBox">
+            <Setter Property="VerticalAlignment" Value="Center" />
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Height" Value="30" />
+            <Setter Property="Margin" Value="5" />
+            <Setter Property="Padding" Value="5" />
+        </Style>
+        <Style TargetType="ListView">
+            <Setter Property="Background" Value="#FAFAFA" />
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Padding" Value="2"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" Content="Connection string" />
+            <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding ConnectionString, Mode=TwoWay}" />
+            <Button Grid.Row="0" Grid.Column="2" Padding="5" ToolTip="Get DB list" x:Name="btnGetDBList" Command="{Binding GetDataBasesCommand}">
+                <Image Source="picture\Addnewdatasource_8453_32.bmp"></Image>
+            </Button>
+            <Button Grid.Column="3" Padding="5" ToolTip="Create Diagramm" Command="{Binding CreateDiaCommand}">
+                <Image Source="picture\CreateSchema_8259_32.bmp"></Image>
+            </Button>
+            <Button Grid.Column="4" Padding="5" ToolTip="Create Diagramm Custom approach" Command="{Binding CreateDiaCustomCommand}">
+                <Image Source="picture\CreateSchema_8259_32.bmp"></Image>
+            </Button>
+            <Button Grid.Column="5" Padding="5" ToolTip="Create Diagramm By Manual Strin" Command="{Binding CreateDiaManualStringCommand}">
+                <Image Source="picture\CreateSchema_8259_32.bmp"></Image>
+            </Button>
+            <Button Grid.Column="6" Padding="5" ToolTip="Previous variant" Command="{Binding PreviousOptCommand}">
+                <Image Source="picture\GotoPreviousUncovered_8603_32.bmp"></Image>
+            </Button>
+            <Button Grid.Column="7" Padding="5" ToolTip="Next variant" Command="{Binding NextOptCommand}">
+                <Image Source="picture\GoToNextUncovered_8593_32.bmp"></Image>
+            </Button>
+            <Button Grid.Column="8" Padding="5" ToolTip="Increase Dia Area" Command="{Binding IncreaseDiaAreaCommand}">
+                <Image Source="picture\Zoom_5442.png"></Image>
+            </Button>
+            <Button Grid.Column="9" Padding="5" ToolTip="Decrease Dia Area" Command="{Binding DecreaseDiaAreaCommand}">
+                <Image Source="picture\ZoomOut_12927.png"></Image>
+            </Button>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Label Grid.Column="0" Content="Algorithm" Margin="2" />
+            <ComboBox Grid.Column="1" ItemsSource="{Binding VerteciesInTableAlgorithms}" SelectedItem="{Binding SelectedVerteciesInTableAlgorithm}" VerticalAlignment="Center" >
+                <ComboBox.Resources>
+                    <DataTemplate DataType="{x:Type d:AlgorithmInfo}">
+                        <TextBlock Text="{Binding Name}" VerticalAlignment="Center" Margin="3"/>
+                    </DataTemplate>
+                    <Style TargetType="ListBoxItem">
+                        <Setter Property="VerticalAlignment" Value="Center"/>
+                        <Setter Property="VerticalContentAlignment" Value="Center"/>
+                    </Style>
+                </ComboBox.Resources>
+            </ComboBox>
+            <Label Grid.Column="2" Content="EmptyOrder" Margin="2" />
+            <ComboBox Grid.Column="3" ItemsSource="{Binding EmptyOrderList}" SelectedItem="{Binding SelectedEmptyOrder}" VerticalAlignment="Center">
+                <ComboBox.ItemTemplate>
+                    <ItemContainerTemplate>
+                        <TextBlock Text="{Binding }" VerticalAlignment="Center" Margin="3"/>
+                    </ItemContainerTemplate>
+                </ComboBox.ItemTemplate>
+                <ComboBox.Resources>
+                    <Style TargetType="ListBoxItem">
+                        <Setter Property="VerticalAlignment" Value="Center"/>
+                        <Setter Property="VerticalContentAlignment" Value="Center"/>
+                    </Style>
+                </ComboBox.Resources>
+            </ComboBox>
+            <Label Grid.Column="4" Content="BaseEnumeration" Margin="2" />
+            <ComboBox Grid.Column="5" ItemsSource="{Binding BaseEnumerationList}" SelectedItem="{Binding SelectedBaseEnumeration}" VerticalAlignment="Center">
+                <ComboBox.ItemTemplate>
+                    <ItemContainerTemplate>
+                        <TextBlock Text="{Binding }" VerticalAlignment="Center" Margin="3"/>
+                    </ItemContainerTemplate>
+                </ComboBox.ItemTemplate>
+                <ComboBox.Resources>
+                    <Style TargetType="ListBoxItem">
+                        <Setter Property="VerticalAlignment" Value="Center"/>
+                        <Setter Property="VerticalContentAlignment" Value="Center"/>
+                    </Style>
+                </ComboBox.Resources>
+            </ComboBox>
+            <Label Grid.Column="6" Content="UsingLowestimation" Margin="2" />
+            <ComboBox Grid.Column="7" ItemsSource="{Binding UsingLowestimationList}" SelectedItem="{Binding SelectedUsingLowestimation}" VerticalAlignment="Center">
+                <ComboBox.ItemTemplate>
+                    <ItemContainerTemplate>
+                        <TextBlock Text="{Binding }" VerticalAlignment="Center" Margin="3"/>
+                    </ItemContainerTemplate>
+                </ComboBox.ItemTemplate>
+                <ComboBox.Resources>
+                    <Style TargetType="ListBoxItem">
+                        <Setter Property="VerticalAlignment" Value="Center"/>
+                        <Setter Property="VerticalContentAlignment" Value="Center"/>
+                    </Style>
+                </ComboBox.Resources>
+            </ComboBox>
+            <Label Grid.Column="8" Content="Elimination" Margin="2" />
+            <ComboBox Grid.Column="9" ItemsSource="{Binding EliminationList}" SelectedItem="{Binding SelectedElimination}" VerticalAlignment="Center">
+                <ComboBox.ItemTemplate>
+                    <ItemContainerTemplate>
+                        <TextBlock Text="{Binding }" VerticalAlignment="Center" Margin="3"/>
+                    </ItemContainerTemplate>
+                </ComboBox.ItemTemplate>
+                <ComboBox.Resources>
+                    <Style TargetType="ListBoxItem">
+                        <Setter Property="VerticalAlignment" Value="Center"/>
+                        <Setter Property="VerticalContentAlignment" Value="Center"/>
+                    </Style>
+                </ComboBox.Resources>
+            </ComboBox>
+            <Label Grid.Row="1" Grid.Column="0" Content="IsSorted" Margin="2" />
+            <ComboBox Grid.Row="1" Grid.Column="1" ItemsSource="{Binding IsSortedList}" SelectedItem="{Binding SelectedIsSorted}" VerticalAlignment="Center">
+                <ComboBox.ItemTemplate>
+                    <ItemContainerTemplate>
+                        <TextBlock Text="{Binding }" VerticalAlignment="Center" Margin="3"/>
+                    </ItemContainerTemplate>
+                </ComboBox.ItemTemplate>
+                <ComboBox.Resources>
+                    <Style TargetType="ListBoxItem">
+                        <Setter Property="VerticalAlignment" Value="Center"/>
+                        <Setter Property="VerticalContentAlignment" Value="Center"/>
+                    </Style>
+                </ComboBox.Resources>
+            </ComboBox>
+            <Label Grid.Row="1" Grid.Column="2" Content="SortedType" Margin="2" />
+            <ComboBox Grid.Row="1" Grid.Column="3" ItemsSource="{Binding SortedTypeList}" SelectedItem="{Binding SelectedSortedType}" VerticalAlignment="Center"  >
+                <ComboBox.ItemTemplate>
+                    <ItemContainerTemplate>
+                        <TextBlock Text="{Binding }" VerticalAlignment="Center" Margin="3"/>
+                    </ItemContainerTemplate>
+                </ComboBox.ItemTemplate>
+                <ComboBox.Resources>
+                    <Style TargetType="ListBoxItem">
+                        <Setter Property="VerticalAlignment" Value="Center"/>
+                        <Setter Property="VerticalContentAlignment" Value="Center"/>
+                    </Style>
+                </ComboBox.Resources>
+            </ComboBox>
+            <Label Grid.Row="1" Grid.Column="4" Content="ManualName" Margin="2" />
+            <TextBox Grid.Row="1" Grid.Column="5" Text="{Binding ManualName}"  VerticalAlignment="Center" />
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="2" Content="OptimalNumber" />
+            <Label Grid.Column="4" Content="Position in List" />
+            <Label Grid.Column="6" Content="Current Value" />
+            <Label Grid.Column="8" Content="Max Durability" />
+            <Label Grid.Column="10" Content="Bin Subset Presentation" />
+            <Label Grid.Column="12" Content="Count of Selected" />
+            <TextBlock Grid.Column="3" Text="{Binding ChangeOptimalNumber}" Width="80"/>
+            <TextBlock Grid.Column="5" Text="{Binding PositionInBestRoutes}" Width="80"/>
+            <TextBlock Grid.Column="7" Text="{Binding WeightOfCurrentRoute}" Width="80"/>
+            <TextBox Grid.Column="9" Text="{Binding MaxDurability}" Width="80"/>
+            <TextBox Grid.Column="11" Text="{Binding BinSubsetPresentation, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Width="70"/>
+            <TextBox Grid.Column="13" Text="{Binding CountOfSelected}" Width="70"/>
+            <Button Grid.Column="14" Padding="5" Width="30" ToolTip="Select tables base on bin presentation" Command="{Binding SelectTablesBaseOnBinPresentationCommand}">
+                <Image Source="picture\CreateSchema_8259_32.bmp"></Image>
+            </Button>
+        </Grid>
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="173*" />
+                        <ColumnDefinition Width="54*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <ComboBox Grid.Column="0" ItemsSource="{Binding DataBases}" 
+                              SelectedIndex="{Binding SelectedDataBaseIndex}" Grid.ColumnSpan="2">
+                        <ComboBox.Resources>
+                            <DataTemplate DataType="{x:Type m:DataBase}">
+                                <TextBlock Text="{Binding Name}" VerticalAlignment="Center" Margin="3"/>
+                            </DataTemplate>
+                            <Style TargetType="ListBoxItem">
+                                <Setter Property="VerticalAlignment" Value="Center"/>
+                                <Setter Property="VerticalContentAlignment" Value="Center"/>
+                            </Style>
+                        </ComboBox.Resources>
+                    </ComboBox>
+                    <Button Grid.Column="2" Padding="5" Content="Get table" Command="{Binding GetTablesCommand}" Visibility="Collapsed"/>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="1" />
+                    <ToolBarTray Grid.Column="0" Background="White" VerticalAlignment="Center">
+                        <ToolBar Band="1" BandIndex="1" VerticalAlignment="Stretch">
+                            <Button ToolTip="Select All" Command="{Binding SelectAllCommand}">
+                                <Image Width="25" Height="25" Source="Picture\Selectallrowsfrom_tableA__294_32.bmp" />
+                            </Button>
+                            <Button ToolTip="UnSelect All" Command="{Binding UnSelectAllCommand}">
+                                <Image Width="25" Height="25" Source="Picture\UnComment_11701_32.bmp" />
+                            </Button>
+                            <Button ToolTip="Select Current and Adjacents" Command="{Binding SelectCurrentAndAdjacentsCommand}">
+                                <Image Width="25" Height="25" Source="Picture\ColorSelectionTool_202_32x.png" />
+                            </Button>
+                            <Button ToolTip="Select Current and Adjacents and Adjacents of Adjacents" Command="{Binding SelectCurrentAndAdjacentsTo2Command}">
+                                <Image Width="25" Height="25" Source="Picture\ColorSelectionTool_202_32x.png" />
+                            </Button>
+                            <Button ToolTip="Select Adjacents For Selected" Command="{Binding SelectAdjacentsForSelectedCommand}">
+                                <Image Width="25" Height="25" Source="Picture\SelectCell_363_12x.png" />
+                            </Button>
+                            <Button ToolTip="Select Group" Command="{Binding SelectGroupOfSelectedCommand}">
+                                <Image Width="25" Height="25" Source="Picture\Selectallrowsfrom_TableB_295.png" />
+                            </Button>
+                            <Button ToolTip="Cancel Coloring" Command="{Binding CancalColoringCommand}">
+                                <Image Width="25" Height="25" Source="Picture\ColorPalette.png" />
+                            </Button>
+                            <Button ToolTip="Only selected" Command="{Binding SetFilterForSelectedCommand}">
+                                <Image Width="25" Height="25" Source="Picture\ColorPalette.png" />
+                            </Button>
+                            <Button ToolTip="Cancel filtering" Command="{Binding ClearFilteringCommand}">
+                                <Image Width="25" Height="25" Source="Picture\ColorPalette.png" />
+                            </Button>
+                        </ToolBar>
+                    </ToolBarTray>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition />
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Content="Search" Padding="2"/>
+                    <TextBox Grid.Column="1" Text="{Binding SearchTablePattern}" />
+                    <Button Grid.Column="2" ToolTip="Start Search Table" Command="{Binding StartSearchTableCommand}" Padding="1" Margin="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+                        <Image Width="18" Height="18" Source="Picture\Selectallrowsfrom_tableA__294_32.bmp" />
+                    </Button>
+                    <Button Grid.Column="3" ToolTip="Continue Search Table" Command="{Binding ContinueSearchTableCommand}" Padding="1" Margin="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+                        <Image Width="18" Height="18" Source="Picture\Selectallrowsfrom_tableA__294_32.bmp" />
+                    </Button>
+                </Grid>
+                <ContentControl Grid.Row="3" Visibility="Collapsed" Content="{StaticResource ProxyElement}"/>
+                <DataGrid x:Name="dgTables"  Grid.Row="3" ItemsSource="{Binding Tables}" IsReadOnly="false" AutoGenerateColumns="False" Margin="1"
+                           AlternationCount="2" RowBackground="#DDDDFF" AlternatingRowBackground="#CCCCEE"
+                           SelectedItem="{Binding SelectedTable}"
+                           SelectionMode="Single" SelectionUnit="FullRow" CanUserAddRows="False" CanUserDeleteRows="False">
+                    <DataGrid.RowStyle>
+                        <Style TargetType="DataGridRow">
+                            <Setter Property="Height" Value="25" />
+                            <Setter Property="VerticalAlignment" Value="Center" />
+                            <Setter Property="VerticalContentAlignment" Value="Center" />
+                        </Style>
+                    </DataGrid.RowStyle>
+                    <DataGrid.CellStyle>
+                        <Style TargetType="DataGridCell">
+                            <Setter Property="VerticalAlignment" Value="Center" />
+                            <Setter Property="VerticalContentAlignment" Value="Center" />
+                        </Style>
+                    </DataGrid.CellStyle>
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Name" Binding="{Binding Name}" MinWidth="200"></DataGridTextColumn>
+                        <DataGridCheckBoxColumn Header="Is selected" Binding="{Binding Path=IsSelected, UpdateSourceTrigger=PropertyChanged}"  Width="Auto" MaxWidth="30"></DataGridCheckBoxColumn>
+                        <DataGridTemplateColumn  Header="Gr" MinWidth="10" 
+                                        Visibility="{ Binding DataContext.IsColored,
+                                        Source={StaticResource ProxyElement},         Converter={StaticResource visibilityConverter}}">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Group}" Background="{Binding TableColor}" Foreground="{Binding ForeColor}"
+                                               HorizontalAlignment="Stretch" Padding="5,0,0,0" >
+                                    </TextBlock>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+            <GridSplitter Grid.Column="1" 
+              Grid.RowSpan="1" 
+              HorizontalAlignment="Left" 
+              VerticalAlignment="Stretch"
+              Background="Black" 
+              ShowsPreview="true"
+              Width="3"/>
+            <Grid   Grid.Column="2" Background="#E9FAFB">
+                <Border BorderBrush="Black" BorderThickness="2" x:Name="pnlDia">
+                    <ScrollViewer x:Name="svDia" HorizontalScrollBarVisibility="Visible">
+                        <ItemsControl x:Name="icDia" Margin="5"  ItemsSource="{Binding DiaElements}">
+                            <ItemsControl.Template>
+                                <ControlTemplate TargetType="ItemsControl">
+                                    <Border BorderBrush="#00000000" BorderThickness="1" HorizontalAlignment="Left">
+                                        <ItemsPresenter/>
+                                    </Border>
+                                </ControlTemplate>
+                            </ItemsControl.Template>
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <Grid Background="#00000000" />
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                        </ItemsControl>
+                    </ScrollViewer>
+                </Border>           
+            </Grid>
+                
+
+        </Grid>
+    </Grid>
+</Window>
